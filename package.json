@@ -1,7 +1,7 @@
 {
   "name": "@smoozzy/http-statuses",
   "description": "Collection of HTTP statuses as named constants",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Smoozzy Code <smoozzy.code@gmail.com>",
   "homepage": "https://github.com/smoozzy/http-statuses#readme",
   "license": "MIT",

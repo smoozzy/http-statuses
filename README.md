@@ -39,6 +39,7 @@ export default new Api({
  100  | Continue                           | [Description](https://httpstatuses.com/100)
  101  | Switching Protocols                | [Description](https://httpstatuses.com/101)
  102  | Processing                         | [Description](https://httpstatuses.com/102)
+ 103  | Early Hints                        | [Description](https://tools.ietf.org/html/rfc8297)
 
 
 ### 2xx Success
@@ -98,7 +99,7 @@ export default new Api({
  422  | Unprocessable Entity               | [Description](https://httpstatuses.com/422)
  423  | Locked                             | [Description](https://httpstatuses.com/423)
  424  | Failed Dependency                  | [Description](https://httpstatuses.com/424)
- 425  | Too Early                          | [Description](https://tools.ietf.org/html/draft-ietf-httpbis-replay-04)
+ 425  | Too Early                          | [Description](https://tools.ietf.org/html/rfc8470#section-5.2)
  426  | Upgrade Required                   | [Description](https://httpstatuses.com/426)
  428  | Precondition Required              | [Description](https://httpstatuses.com/428)
  429  | Too Many Requests                  | [Description](https://httpstatuses.com/429)
@@ -128,5 +129,5 @@ export default new Api({
 
 ## Links
 
+- [IANA Status Code Registry](https://www.iana.org/assignments/http-status-codes/http-status-codes.xhtml)
 - [HTTP Status Codes](https://httpstatuses.com)
-- [Apache HttpClient](https://hc.apache.org/httpcomponents-core-ga/httpcore/apidocs/org/apache/http/HttpStatus.html)

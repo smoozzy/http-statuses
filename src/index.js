@@ -31,6 +31,7 @@ export const STATUS_FOUND = 302;                               // https://tools.
 export const STATUS_SEE_OTHER = 303;                           // https://tools.ietf.org/html/rfc7231#section-6.4.4
 export const STATUS_NOT_MODIFIED = 304;                        // https://tools.ietf.org/html/rfc7232#section-4.1
 export const STATUS_USE_PROXY = 305;                           // https://tools.ietf.org/html/rfc7231#section-6.4.5
+// export const STATUS_UNUSED = 306;                           // https://tools.ietf.org/html/rfc7231#section-6.4.6
 export const STATUS_TEMPORARY_REDIRECT = 307;                  // https://tools.ietf.org/html/rfc7231#section-6.4.7
 export const STATUS_PERMANENT_REDIRECT = 308;                  // https://tools.ietf.org/html/rfc7538#section-3
 
@@ -61,7 +62,7 @@ export const STATUS_MISDIRECTED_REQUEST = 421;                 // https://tools.
 export const STATUS_UNPROCESSABLE_ENTITY = 422;                // https://tools.ietf.org/html/rfc4918#section-11.2
 export const STATUS_LOCKED = 423;                              // https://tools.ietf.org/html/rfc4918#section-11.3
 export const STATUS_FAILED_DEPENDENCY = 424;                   // https://tools.ietf.org/html/rfc4918#section-11.4
-export const STATUS_TOO_EARLY = 425;                           // https://tools.ietf.org/html/draft-ietf-httpbis-replay-04#section-5.2
+export const STATUS_TOO_EARLY = 425;                           // https://tools.ietf.org/html/rfc8470#section-5.2
 export const STATUS_UPGRADE_REQUIRED = 426;                    // https://tools.ietf.org/html/rfc7231#section-6.5.15
 export const STATUS_PRECONDITION_REQUIRED = 428;               // https://tools.ietf.org/html/rfc6585#section-3
 export const STATUS_TOO_MANY_REQUESTS = 429;                   // https://tools.ietf.org/html/rfc6585#section-4
